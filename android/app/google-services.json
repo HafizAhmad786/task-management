@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "443119990978",
+    "project_id": "tgo-task",
+    "storage_bucket": "tgo-task.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443119990978:android:839f14570da8791164a35b",
+        "android_client_info": {
+          "package_name": "com.tgo.tgo_todo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "443119990978-mr3fl48og2qg89rnhpudbnaeqv0cthmm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZRlSCUtaAIA02-TdhGlS_iLapY8VEsO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "443119990978-mr3fl48og2qg89rnhpudbnaeqv0cthmm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
