@@ -43,7 +43,9 @@ class HomePageProvider extends ChangeNotifier implements TaskProviderBase {
     "03:30 PM",
     "04:00 PM",
     "04:30 PM",
-    "05:00 PM"
+    "05:00 PM",
+    "05:30 PM",
+    "06:00 PM",
   ];
   final twentyFourHourTimes = [
     "09:30",
@@ -61,7 +63,10 @@ class HomePageProvider extends ChangeNotifier implements TaskProviderBase {
     "15:30",
     "16:00",
     "16:30",
-    "17:00"
+    "17:00",
+    "17:00",
+    "17:30",
+    "18:00",
   ];
   int _currentFormat = 0;
 

@@ -95,7 +95,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                     Padding(
                       padding: const EdgeInsets.only(bottom: 8.0),
-                      child: showSvgIconWidget(height: 45, width: 45, iconPath: AppIcons.filterIcon, context: context),
+                      child: showSvgIconWidget(height: 45, width: 45, iconPath: AppIcons.filterIcon, context: context,color: Colors.transparent),
                     ),
                   ],
                 ),

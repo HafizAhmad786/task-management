@@ -50,11 +50,12 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAZRlSCUtaAIA02-TdhGlS_iLapY8VEsO8',
-    appId: '1:443119990978:android:839f14570da8791164a35b',
-    messagingSenderId: '443119990978',
-    projectId: 'tgo-task',
-    storageBucket: 'tgo-task.firebasestorage.app',
+    apiKey: 'AIzaSyD6fX2pFD_m6mJXbF_htvsTgjGzccDBHKI',
+    appId: '1:234545800256:android:4e79be10759dacf60d2ba5',
+    messagingSenderId: '234545800256',
+    projectId: 'testing-6058c',
+    databaseURL: 'https://testing-6058c-default-rtdb.firebaseio.com',
+    storageBucket: 'testing-6058c.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(

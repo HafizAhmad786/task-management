@@ -14,9 +14,9 @@ class FirebaseServices {
   Future<Map<String, dynamic>> emailLogin(String email, String password) async {
     try {
       var response = await _auth.signInWithEmailAndPassword(email: email, password: password);
-      var userData = await _db.user.doc(response.user!.uid).get();
-      if (userData.exists) {
-        return {"user": UserModel.fromJson(userData.data()!)};
+      // var userData = await _db.user.doc(response.user!.uid).get();
+      if (response.user!.uid.isNotEmpty) {
+        return {"user": response.user!.uid};
       } else {
         return {};
       }

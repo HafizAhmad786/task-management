@@ -18,7 +18,7 @@ Widget showSvgIconWidget({required String iconPath, bool replacement = false,
       child: SvgPicture.asset(
         iconPath,
         // color: color,
-        colorFilter: ColorFilter.mode(color ?? AppColor.lightPrimary,BlendMode.lighten),
+        colorFilter: ColorFilter.mode(color ?? AppColor.lightPrimary,BlendMode.srcIn),
         width: width,
         height: height,
       ));

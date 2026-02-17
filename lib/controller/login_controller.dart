@@ -22,7 +22,7 @@ class LoginController extends ChangeNotifier {
       Fluttertoast.showToast(msg: data['error']);
       return;
     } else if (data['user'] != null && data.isNotEmpty) {
-      await storage.saveUserId((data["user"] as UserModel).uid ?? "");
+      await storage.saveUserId(data["user"] ?? "");
 
       Fluttertoast.showToast(msg: 'Login successfully');
       if (context.mounted) {

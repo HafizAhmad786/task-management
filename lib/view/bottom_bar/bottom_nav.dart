@@ -77,9 +77,6 @@ class CustomBottomBar extends StatelessWidget {
                           height: 20,
                           width: 20,
                           iconPath: listOfIcons[index],
-                          color: isSelected
-                              ? AppColor.lightPrimary
-                              : Colors.grey,
                           context: context,
                         ),
                       SizedBox(height: 5),
