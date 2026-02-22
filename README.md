@@ -11,8 +11,7 @@ A sleek, high-performance Flutter application designed to help users manage thei
 </p>
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/918adc1b-e9f9-4f8f-938e-2fa551e126bd" width="200" />
-<img src="https://github.com/user-attachments/assets/df7ad189-9d63-4383-9830-1bfaff8f9e18" width="200" />
+<img src="https://github.com/user-attachments/assets/94693e78-d62b-4028-9671-a25e70d1641a" width="200" />
 <img src="https://github.com/user-attachments/assets/34cf67b5-43a4-4f90-8273-402542890abe" width="200" />
 </p>
 
