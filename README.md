@@ -1,16 +1,6 @@
 FocusFlow – Productivity & Task Management App
 A sleek, high-performance Flutter application designed to help users manage their daily tasks, track productivity, and stay organized with a modern UI/UX.
 
-🚀 Key Features
-Task Categorization: Separate tasks into Personal, Work, and Health categories.
-
-Progress Tracking: Visual progress bars and percentage indicators for daily goals.
-
-Dynamic Calendar: Weekly view to manage upcoming deadlines efficiently.
-
-Interactive UI: Smooth transitions, custom widgets, and a clean minimalist aesthetic.
-
-Status Management: Easily toggle between "In Progress", "Completed", and "Pending" tasks.
 
 📱 App Previews
 <p align="center">
@@ -32,27 +22,7 @@ Framework: Flutter
 
 Language: Dart
 
-State Management: Provider / Riverpod / Bloc (Aap jo bhi use kar rahe hain yahan likhen)
+State Management: Provider
 
-Icons: Lucide / Material Icons
 
-⚙️ Installation
-To run this project locally, follow these steps:
-
-Clone the repository:
-
-Bash
-git clone https://github.com/YourUsername/focusflow-todo.git
-Navigate to the project directory:
-
-Bash
-cd focusflow-todo
-Install dependencies:
-
-Bash
-flutter pub get
-Run the app:
-
-Bash
-flutter run
-Developed by [Hafiz Ahmad] Looking for a Flutter Developer? Let's connect!
+Developed by Hafiz Ahmad Looking for a Flutter Developer? Let's connect!
